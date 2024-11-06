@@ -291,7 +291,7 @@ function makeMIDIKeyboard(device) {
 
     mdiv.removeChild(document.getElementById("no-midi-label"));
 
-    const midiNotes = [49, 52, 56, 63];
+    const midiNotes = [64, 66, 68, 70, 72];
     midiNotes.forEach(note => {
         const key = document.createElement("div");
         const label = document.createElement("p");
@@ -317,7 +317,7 @@ function makeMIDIKeyboard(device) {
             // to the global namespace. This includes the TimeNow constant as well as
             // the MIDIEvent constructor.
             let midiPort = 0;
-            let noteDurationMs = 250;
+            let noteDurationMs = 1000;
         
             // When scheduling an event to occur in the future, use the current audio context time
             // multiplied by 1000 (converting seconds to milliseconds) for now.
