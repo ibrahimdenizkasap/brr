@@ -7,7 +7,7 @@
         "name": "seks",
         "paramId": "seks",
         "minimum": 50,
-        "maximum": 500,
+        "maximum": 100,
         "exponent": 1,
         "steps": 0,
         "initialValue": 50,
