@@ -10,7 +10,7 @@
         "maximum": 500,
         "exponent": 1,
         "steps": 0,
-        "initialValue": 200,
+        "initialValue": 50,
         "isEnum": false,
         "enumValues": [],
         "displayName": "",
